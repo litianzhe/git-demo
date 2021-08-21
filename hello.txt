@@ -5,3 +5,11 @@
 我在版本库testgit目录下新建一个记事本文件 readme.txt 内容如下：11111111
 
 第一步：使用命令 git add readme.txt添加到暂存区里面去。如下：
+
+第二步：用命令 git commit告诉Git，把文件提交到仓库。
+
+上面的命令告诉我们 readme.txt文件已被修改，但是未被提交的修改。
+
+接下来我想看下readme.txt文件到底改了什么内容，如何查看呢？可以使用如下命令：
+
+git diff readme.txt 
